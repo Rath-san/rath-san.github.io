@@ -51,25 +51,33 @@ function equalColumns() {
 
   for (var c = 0; c < columns.length; c++) {
     columns.eq(c).css('height', containerHeight)
-    console.log(columns[c]);
+    // console.log(columns[c]);
   }
 }
 
 $(document).ready(function(){
-  console.log('hello, portfolio!');
+  sectionInView('section', 1000)
 
   var wW = $(window).width()
-  // console.log(wW);
-
   if (wW < 768) {
+
     $(window).on('scroll', function(){
       isSeen('.card')
     });
+    $('section').addClass('is--visible')
+
   } else {
+
     equalColumns();
+
     $('.card').hover(function(){
       $(this).toggleClass('is--active')
     })
+
+    $(window).on('scroll', function(){
+      sectionInView('section', 1000)
+    });
+
   }
 
 
@@ -83,26 +91,71 @@ $(document).ready(function(){
   toggleSidebar('.sidebar-toggle')
   // equalHeight()
 
+  //section in view
+  function sectionInView(section, offset) {
+    var s = $(section);
+
+    var v = $(window)
+    var vH = v.height()
+    var vST = v.scrollTop()
+
+    var fL = vST + vH/2
+
+    s.each(function() {
+      if ($(this).offset().top < fL) {
+        $(this).addClass('is--visible')
+      }
+
+    })
+
+
+
+
+    // s.each(function() {
+    //
+    // })
+
+  }
+// sendEmail()
+// function sendEmail() {
+//   Email.send(
+//     "leonardthetest@gmail.com",
+//     "rim.kozlowski@gmail.com",
+//     "This is a subject",
+//     "this is the body",
+//     "smtp.gmail.com",
+//     "leonardthetest",
+//     "leonardthetest2018",
+//     function done(message) { alert("sent") }
+//   );
+// }
+
+
+
+
   // owl-carousel
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    items: 1,
-    nav:true,
-    navText: [
-      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>'
-    ],
-    dots: true
-    // margin:10,
-    // responsive:{
-    //     0:{
-    //         items:1
-    //     },
-    //     600:{
-    //         items:3
-    //     },
-    //     1000:{
-    //         items:5
-    //     }
-    // }
-})
+  if ($('.owl-sb-carousel').length > 0) {
+    $('.owl-sb-carousel').owlCarousel({
+      loop:true,
+      items: 1,
+      nav:true,
+      navText: [
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>'
+      ],
+      dots: true
+      // margin:10,
+      // responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     600:{
+      //         items:3
+      //     },
+      //     1000:{
+      //         items:5
+      //     }
+      // }
+    });
+  }
+
 })

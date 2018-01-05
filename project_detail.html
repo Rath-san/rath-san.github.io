@@ -164,30 +164,30 @@
             <div class="section-header text-center">
               <h2>Contact</h2>
             </div>
-            <form class="well contact-form">
+            <form class="well contact-form" method="POST" action="https://formspree.io/leonardthehest@gmail.com">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group md-input">
                     <label for="inputName">imię i nazwisko</label>
-                    <input class="form-control" id="inputName" type="text"><span></span>
+                    <input class="form-control" id="inputName" type="text" name="name"><span></span>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group md-input">
-                    <label for="exampleInputEmail">e-mail</label>
-                    <input class="form-control" id="exampleInputEmail" type="email"><span></span>
+                    <label for="inputEmail">e-mail</label>
+                    <input class="form-control" id="inputEmail" type="email" name="reply to"><span></span>
                   </div>
                 </div>
                 <div class="col-sm-12">
                   <div class="form-group md-input">
                     <label for="inputPhone">numer telefonu</label>
-                    <input class="form-control" id="inputPhone" type="number"><span></span>
+                    <input class="form-control" id="inputPhone" type="number" name="number"><span></span>
                   </div>
                 </div>
                 <div class="col-sm-12">
                   <div class="form-group md-input">
                     <label for="inputTextarea">wiadomość</label>
-                    <textarea class="form-control" id="inputTextarea" rows="3"></textarea><span></span>
+                    <textarea class="form-control" id="inputTextarea" rows="3" name="message"></textarea><span></span>
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -198,7 +198,7 @@
                   </div>
                 </div>
                 <div class="col-sm-6 col-sm-offset-6">
-                  <button class="btn btn-primary btn-lg btn-block" type="submit">Wyślij</button>
+                  <button class="btn btn-primary btn-lg btn-block" type="submit" value="Send">Wyślij</button>
                 </div>
               </div>
             </form>
