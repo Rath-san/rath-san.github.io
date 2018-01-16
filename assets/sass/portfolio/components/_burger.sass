@@ -1,0 +1,29 @@
+.sidebar-toggle
+  &-button
+    position: relative
+    width: 5rem
+    margin-top: 1rem
+    &:focus
+      box-shadow: none
+      outline: none
+  &-item
+    display: block
+    height: .2rem
+    width: 100%
+    background-color: $brand-cta
+    transform-origin: center
+    transition: all .3s $material-bezier
+    + .sidebar-toggle-item
+      margin-top: .5rem
+    .is--open &
+      + .sidebar-toggle-item
+        margin-top: 0
+      &:first-of-type
+        // background-color: red
+        transform: translateY(6px) rotateZ(45deg)
+      &:nth-last-of-type(2)
+        // background-color: green
+        transform: scaleX(0)
+      &:last-of-type
+        // background-color: blue
+        transform: translateY(2px) rotateZ(-45deg)

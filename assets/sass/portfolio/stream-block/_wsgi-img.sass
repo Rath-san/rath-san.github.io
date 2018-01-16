@@ -1,0 +1,90 @@
+.post__entry
+  font-size: calc(1.4rem + .3 * ((100vw - 20rem)/ 220))
+  line-height: 2.2rem
+
+figure
+  margin-top: calc(1.5rem + 1vw)
+  margin-bottom: calc(1.5rem + 1vw)
+
+figcaption
+  clear: both
+  color: #888
+  font-style: italic
+  font-size: .79012rem
+  margin: .75rem 0 0
+  text-align: center
+
+.post__image
+  img
+    height: auto
+    max-width: 100%
+    vertical-align: top
+  &--full
+    margin-left: calc(-50vw + 50%)
+    margin-right: calc(-50vw + 50%)
+  &--wide
+
+
+  &--left
+    float: left
+    margin-bottom: 1.5rem
+    margin-right: 1.5rem
+    max-width: 50%
+  &--right
+    float: right
+    margin-bottom: 1.5rem
+    margin-left: 1.5rem
+    max-width: 50%
+  &--center
+    display: block
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+
+.gallery
+  margin: calc(1.5rem + 1vw) -0.5rem
+  +media-min(20em)
+    display: flex
+    flex-wrap: wrap
+
+.gallery__item
+  margin: 0
+  padding: 0.5rem
+  +media-min(20em)
+    width: 50%
+    .gallery[data-columns="1"] &
+      width: 100%
+  +media-min(30em)
+    width: 33.333%
+    .gallery[data-columns="2"] &
+      width: 50%
+  +media-min(37.5em)
+    width: 25%
+    .gallery[data-columns="3"] &
+      width: 33%
+  +media-min(56.25em)
+    .gallery[data-columns="4"] &
+      width: 25%
+    .gallery[data-columns="5"] &
+      width: 20%
+    .gallery[data-columns="6"] &
+      width: 16.666%
+    .gallery[data-columns="7"] &
+      width: 14.285%
+    .gallery[data-columns="8"] &
+      width: 12.5%
+  img
+    display: block
+    width: 100%
+
+.pswp--dark
+  .pswp__bg
+    background: #000000
+
+.pswp--light
+  .pswp__bg
+    background: #ffffff
+  .pswp__counter
+    color: #000000
+  .pswp__caption__center
+    color: #111111

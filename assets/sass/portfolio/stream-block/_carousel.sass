@@ -1,0 +1,41 @@
+.owl-sb-carousel
+  position: relative
+  .owl
+    &-nav
+      // pointer-events: none
+      margin: 0
+      // position: absolute
+      top: 50%
+      // transform: translateY(-50%)
+      // width: 100%
+      display: flex
+      justify-content: space-between
+      div[class*='owl-']
+        background: transparent
+        position: absolute
+        top: 50%
+        &:hover
+          background: transparent
+      svg
+        stroke: $white
+        width: 20px
+
+    &-prev
+      transform: translateY(-50%) rotate(180deg)
+      left: 0
+    &-next
+      transform: translateY(-50%)
+      right: 0
+
+    &-dots
+      position: absolute
+      bottom: 2%
+      left: 50%
+      transform: translateX(-50%)
+
+      .owl-dot
+        span
+          background: $brand-primary
+        &.active
+          span
+            background: $brand-cta

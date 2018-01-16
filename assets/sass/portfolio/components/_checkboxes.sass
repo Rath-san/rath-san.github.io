@@ -1,0 +1,33 @@
+.checkbox-custom
+  margin-bottom: 1.8rem
+  label
+    color: $brand-primary-lightest
+    font-weight: 200
+    font-size: 1.2rem
+    padding-left: 3rem
+    position: relative
+    // top: 0
+    // left: 0
+  input[type="checkbox"]
+    appearance: none
+    background-color: transparent
+    height: 1.5rem
+    width: 1.5rem
+    // position: relative
+    left: 0
+    top: 3px
+    margin: 0
+    border: 1px solid $brand-primary-lightest
+    &::before
+      display: none
+      content: "\f00c"
+      position: absolute
+      top: 0
+      left: 0
+      font-family: fontawesome
+      font-size: 1.3rem
+      color: $brand-cta
+    &:checked
+      border-color: $brand-cta
+      &:before
+        display: block

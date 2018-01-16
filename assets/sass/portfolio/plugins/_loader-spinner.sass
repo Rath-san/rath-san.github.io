@@ -1,0 +1,95 @@
+$cube-side: 50px
+
+.spinner-wrapper
+  transform-style: (preserve-3d)
+.cube-spinner
+  position: absolute
+  left: 50%
+  perspective: 1000px
+  perspective-origin: center
+  transform: rotateY(45deg) rotateZ(-15deg) rotateX(-15deg)
+  transform-style: (preserve-3d)
+  height: $cube-side
+  width: $cube-side
+  .cube
+    position: absolute
+    display: block
+    transform-style: (preserve-3d)
+    &.cube--1
+      transform: translateY($cube-side*-1)
+    &.cube--2
+      transform: translateY(0)
+    &.cube--3
+      transform: translateY($cube-side)
+    .c1a,.c1b,.c1c,.c1d,.c1e,.c1f
+      position: absolute
+      // opacity: 0.5
+      display: block
+      width: $cube-side
+      height: $cube-side
+      transform-style: (preserve-3d)
+    .c1a
+      background-color: darken(white, 5%)
+      transform: translateZ( $cube-side/2)
+      // border: 1px solid darken(white, 5%)
+    .c1b
+      background-color: darken(white, 10%)
+      transform: translateX($cube-side/-2) rotateY(90deg)
+      // border: 1px solid darken(white, 10%)
+    .c1c
+      background-color: white
+      transform: translateY($cube-side/-2) rotateX(90deg)
+      // border: 1px solid white
+    .c1d
+      background-color: teal
+      transform: translateZ( $cube-side/-2)
+    .c1e
+      background-color: darken(teal, 10%)
+      transform: translateY($cube-side/2) rotateX(90deg)
+    .c1f
+      background-color: lighten(teal, 10%)
+      transform: translateX($cube-side/2) rotateY(-90deg)
+
++keyframes(loading)
+  0%
+    transform: translateY($cube-side)
+  25%
+    transform: translateY($cube-side) translateZ($cube-side*-1)
+  65%
+    transform: translateY($cube-side*-1) translateZ($cube-side*-1)
+  100%
+    transform: translateY($cube-side*-1) translateZ(0)
+    z-index: -1
+
++keyframes(c--oneSlide)
+  0%
+  25%
+    transform: translateY($cube-side*-1)
+  65%
+    transform: translateY(0)
+  100%
+    transform: translateY(0)
+
++keyframes(c--twoSlide)
+  0%
+  25%
+    transform: translateY(0)
+  65%
+    transform: translateY($cube-side)
+  100%
+    transform: translateY($cube-side)
+
+// .anim-slide-1
+    animation-duration: 1s
+    animation-name: c--oneSlide
+    animation-iteration-count: infinite
+// .anim-slide-2
+    animation-duration: 1s
+    animation-name: c--twoSlide
+    animation-iteration-count: infinite
+
+// .anim
+  // animation: loading
+  animation-duration: 1s
+  animation-name: loading
+  animation-iteration-count: infinite
