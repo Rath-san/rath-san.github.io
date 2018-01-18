@@ -143,30 +143,30 @@ $(document).ready(function(){
 
 
   // owl-carousel
-//   if ($('.owl-sb-carousel').length > 0) { 
-//     $('.owl-sb-carousel').owlCarousel({
-//       loop:true,
-//       items: 1,
-//       nav:true,
-//       navText: [
-//         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>'
-//       ],
-//       dots: true
-//       // margin:10,
-//       // responsive:{
-//       //     0:{
-//       //         items:1
-//       //     },
-//       //     600:{
-//       //         items:3
-//       //     },
-//       //     1000:{
-//       //         items:5
-//       //     }
-//       // }
-//     });
-//   }
-// })
+  if ($('.owl-sb-carousel').length > 0) {
+    $('.owl-sb-carousel').owlCarousel({
+      loop:true,
+      items: 1,
+      nav:true,
+      navText: [
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.56 38.29"><polyline points="0.71 0.71 19.14 19.14 0.71 37.58" fill=none stroke-miterlimit="10" stroke-width="2"/></svg>'
+      ],
+      dots: true
+      // margin:10,
+      // responsive:{
+      //     0:{
+      //         items:1
+      //     },
+      //     600:{
+      //         items:3
+      //     },
+      //     1000:{
+      //         items:5
+      //     }
+      // }
+    });
+  }
+})
 
 // alternative to DOMContentLoaded
 // document.onreadystatechange = function (e) {

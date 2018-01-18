@@ -9311,7 +9311,10 @@ input[type="number"] {
       padding: 0; } }
 
 .card-img {
-  width: 100%; }
+  width: 100%;
+  max-height: 300px;
+  -o-object-fit: cover;
+  object-fit: cover; }
   @media screen and (max-width: 1024px) {
     .card-img {
       width: 150%; }
