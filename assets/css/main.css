@@ -8700,7 +8700,7 @@ section {
     -ms-transform: translateX(-100px);
     transform: translateX(-100px); }
   section.inner-section {
-    padding: 10rem 0; }
+    padding: 2rem 0; }
     @media screen and (max-width: 768px) {
       section.inner-section {
         padding: 5rem 0; } }
@@ -9960,6 +9960,10 @@ textarea::-webkit-scrollbar-thumb {
   color: #00fcc1; }
 
 .sb-3d-wrapper {
+  margin-left: -webkit-calc(-50vw + 70%);
+  margin-left: calc(-50vw + 70%);
+  margin-right: -webkit-calc(-50vw + 70%);
+  margin-right: calc(-50vw + 70%);
   -webkit-transform: translate(10px, 10px);
   -ms-transform: translate(10px, 10px);
   transform: translate(10px, 10px);
@@ -10006,7 +10010,13 @@ figcaption {
   margin-left: -webkit-calc(-50vw + 50%);
   margin-left: calc(-50vw + 50%);
   margin-right: -webkit-calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%); }
+  margin-right: calc(-50vw + 50%);
+  width: 100vw;
+  height: auto; }
+
+.post__image--wide img {
+  width: 100%;
+  height: auto; }
 
 .post__image--left {
   float: left;

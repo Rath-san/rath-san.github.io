@@ -269,41 +269,41 @@ $(document).ready(function(){
 
 
 
-  // var i = $('#apiFrame')
-  // if (i.length > 0) {
-  //
-  //   var iframe = i[0];
-  //   var urlid = i.attr("data-url");
-  //
-  //   var version = '1.0.0'
-  //   // By default, the latest version of the viewer API will be used.
-  //   var client = new Sketchfab(version, iframe);
-  //
-  //   // Alternatively, you can request a specific version.
-  //   // var client = new Sketchfab( '1.0.0', iframe );
-  //
-  //   var success = function onSuccess(api) {
-  //     api.start();
-  //     api.addEventListener('viewerready', function() {
-  //
-  //       console.log('Viewer is ready');
-  //       api.stop() //stop / start
-  //
-  //     });
-  //   }
-  //
-  //   var error = function onError() {
-  //
-  //     console.log('Viewer error');
-  //
-  //   }
-  //
-  //   client.init(urlid, {
-  //     success: success,
-  //     error: error,
-  //     ui_controls: 0
-  //   });
-  // }
+  var i = $('#apiFrame')
+  if (i.length > 0) {
+
+    var iframe = i[0];
+    var urlid = i.attr("data-url");
+
+    var version = '1.0.0'
+    // By default, the latest version of the viewer API will be used.
+    var client = new Sketchfab(version, iframe);
+
+    // Alternatively, you can request a specific version.
+    // var client = new Sketchfab( '1.0.0', iframe );
+
+    var success = function onSuccess(api) {
+      api.start();
+      api.addEventListener('viewerready', function() {
+
+        console.log('Viewer is ready');
+        api.stop() //stop / start
+
+      });
+    }
+
+    var error = function onError() {
+
+      console.log('Viewer error');
+
+    }
+
+    client.init(urlid, {
+      success: success,
+      error: error,
+      ui_controls: 0
+    });
+  }
 
 });
 
