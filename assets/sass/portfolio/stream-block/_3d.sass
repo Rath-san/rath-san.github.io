@@ -1,0 +1,16 @@
+.sb-3d-wrapper
+  // +shadow-z-4(black)
+  // anims
+  margin-left: calc(-50vw + 70%)
+  margin-right: calc(-50vw + 70%)
+  transform: translate(10px, 10px)
+  opacity: 0
+  transition: all .7s $material-bezier .4s
+
+  .is--visible &
+    transform: translate(0, 0)
+    opacity: 1
+    +shadow-z-5($brand-primary)
+
+.api-frame
+  border: none
