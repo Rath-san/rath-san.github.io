@@ -11,7 +11,6 @@
       position: relative
       z-index: 1000
   &.card-vertical
-    margin-bottom: 6rem
     +media-max(768px)
       margin-bottom: 0.1rem
     > div
@@ -27,8 +26,10 @@
 .card-text-holder
   max-width: 45%
   padding: 3rem
+  z-index: 1
   +media-max(768px)
-    max-width: 100%
+    pointer-events: none
+    max-width: 70%
     position: absolute
     bottom: 0
   +media-max(425px)
@@ -45,16 +46,13 @@
 .card-img-holder
   max-width: 55%
   padding: 3rem
-  a
-    display: block
-    perspective: 1000px
   +media-max(768px)
     max-width: 100%
     padding: 0
 
 .card-img
   width: 100%
-  max-height: 300px
+  height: 300px
   object-fit: cover
   transition: transform .2s ease
   +media-max(1024px)
@@ -85,5 +83,7 @@
 .card-description
   margin-bottom: 2rem
   color: $brand-text
+  +media-max(768px)
+    color: $white
   +media-max(600px)
     display: none
