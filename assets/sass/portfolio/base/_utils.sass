@@ -1,0 +1,81 @@
+
+//background color
+.c
+  &-white
+    color: $white
+  &-primary
+    color: $brand-primary
+    &-lighter
+      color: $brand-primary-lighter
+    &-darker
+      color: $brand-primary-darker
+  &-cta
+    color: $brand-cta
+  &-text
+    color: $brand-text
+
+//background color
+.bgc
+  &-white
+    background-color: $white
+  &-primary
+    background-color: $brand-primary
+    &-lighter
+      background-color: $brand-primary-lighter
+    &-darker
+      background-color: $brand-primary-darker
+  &-cta
+    background-color: $brand-cta
+  &-text
+    background-color: $brand-text
+
+//margin
+$margin: 10
+$margin-size: 0px
+
+@while $margin > -1
+  .m-#{$margin}
+    margin: $margin-size + $margin * 10
+  .m-t-#{$margin}
+    margin-top: $margin-size + $margin * 10
+  .m-l-#{$margin}
+    margin-left: $margin-size + $margin * 10
+  .m-b-#{$margin}
+    margin-bottom: $margin-size + $margin * 10
+  .m-r-#{$margin}
+    margin-right: $margin-size + $margin * 10
+  $margin: $margin - 1
+
+// padding
+$padding: 10
+$padding-size: 0px
+
+@while $padding > -1
+  .p-#{$padding}
+    padding: $padding-size + $padding * 10
+  .p-t-#{$padding}
+    padding-top: $padding-size + $padding * 10
+  .p-l-#{$padding}
+    padding-left: $padding-size + $padding * 10
+  .p-b-#{$padding}
+    padding-bottom: $padding-size + $padding * 10
+  .p-r-#{$padding}
+    padding-right: $padding-size + $padding * 10
+  $padding: $padding - 1
+
+// font-weight
+@for $i from 1 through 9
+  .f-w#{$i*100}
+    font-weight: $i * 100
+
+.is--fixed
+  position: fixed
+
+.debug-border
+  outline: 1px solid green
+
+.content
+  &--full
+    margin: 0 calc(-50vw + 50%)
+  &--wide
+    margin: 0 calc(-50vw + 50%)

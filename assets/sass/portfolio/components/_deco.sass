@@ -1,0 +1,29 @@
+.section-deco
+  position: absolute
+  top: 0
+  left: 0
+  transform-origin: center top
+  height: 100%
+  width: 100%
+  +shadow-z-1(black)
+
+  &-header
+    top: 0
+    //ms edge clip path fallback
+    // clip-path: url(#myClipPath)
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)
+
+    +media-max(768px)
+      clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%)
+    .project-detail-page &
+      clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%)
+    .tag-detail-page &
+      clip-path: none
+  &-footer
+    // top: 20%
+    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%)
+    +media-max(768px)
+      clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%)
+
+  &.bg-gradient
+    background-image: $brand-gradient

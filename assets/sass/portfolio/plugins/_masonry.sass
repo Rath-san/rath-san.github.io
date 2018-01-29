@@ -1,0 +1,26 @@
+.grid-sizer,
+.grid-item
+  width: 33.333%
+  transition: all .5s $material-bezier
+  opacity: 0
+  transform: translateY(10px)
+  overflow: hidden
+  &:hover
+    img
+      transform: scale(1.1)
+  +media-max(500px)
+    width: 50%
+  img
+    object-fit: cover
+    width: 100%
+    height: 250px
+    +media-max(500px)
+      height: 150px
+    transition: transform .3s $material-bezier
+
+.grid
+  margin-top: 5rem
+
+.animateIn
+  opacity: 1
+  transform: translateY(0)

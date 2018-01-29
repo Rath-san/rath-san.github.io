@@ -1,0 +1,89 @@
+.card-holder
+  +media-max(768px)
+    padding: 0
+
+.card
+  +media-max(768px)
+    position: relative
+    transition: box-shadow 0.5s $material-bezier
+    &.is--active
+      +shadow-z-4($brand-primary-darker)
+      position: relative
+      z-index: 1000
+  &.card-vertical
+    +media-max(768px)
+      margin-bottom: 0.1rem
+    > div
+      display: inline-block
+      vertical-align: middle
+      + div
+        margin-left: -4px
+      +media-max(768px)
+        display: block
+        + div
+          margin-left: 0
+
+.card-text-holder
+  max-width: 45%
+  padding: 3rem
+  z-index: 1
+  +media-max(768px)
+    pointer-events: none
+    max-width: 70%
+    position: absolute
+    bottom: 0
+  +media-max(425px)
+    padding: 1.5rem
+  // margin-left: 2px
+
+.card-text
+  text-align: right
+  +media-max(768px)
+    text-align: left
+  .card-reversed &
+    text-align: left
+
+.card-img-holder
+  max-width: 55%
+  padding: 3rem
+  +media-max(768px)
+    max-width: 100%
+    padding: 0
+
+.card-img
+  width: 100%
+  height: 300px
+  object-fit: cover
+  transition: transform .2s ease
+  +media-max(1024px)
+    width: 150%
+    .card-reversed &
+      margin-left: -50%
+  +media-max(992px)
+    width: 200%
+    .card-reversed &
+      margin-left: -100%
+  +media-max(768px)
+    // opacity: 0.6
+    width: 100%
+    // transition: opacity 0.3s $material-bezier
+    .card-reversed &
+      margin-left: 0
+    // .is--active &
+      opacity: 1
+
+.card-title
+  color: $brand-cta
+  margin-bottom: 2rem
+  h3
+    margin-top: 0
+    font-weight: 600
+    font-size: 2.4rem
+
+.card-description
+  margin-bottom: 2rem
+  color: $brand-text
+  +media-max(768px)
+    color: $white
+  +media-max(600px)
+    display: none
