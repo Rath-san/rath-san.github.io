@@ -8789,15 +8789,15 @@ h1, h2, h3, h4, h5, h6 {
     .section-header h2 {
       padding: 0;
       margin-bottom: 2rem; } }
+  @media screen and (max-width: 500px) {
+    .section-header h2 {
+      font-size: 3rem; } }
 
 .section-header-main {
   margin: auto;
   max-width: 50%; }
   .post-detail-page .section-header-main {
     margin-left: 0; }
-  @media screen and (max-width: 500px) {
-    .section-header-main {
-      max-width: 100%; } }
   .section-header-main h1 {
     margin-top: 0;
     font-weight: 600;
@@ -9059,7 +9059,7 @@ input[type="number"] {
 .sidebar-toggle-button {
   position: relative;
   width: 5rem;
-  margin-top: 1rem; }
+  height: 5rem; }
   .sidebar-toggle-button:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -9989,7 +9989,7 @@ textarea::-webkit-scrollbar-thumb {
         height: 150px; } }
 
 .grid {
-  margin-top: 5rem; }
+  margin: 5rem 0; }
 
 .animateIn {
   opacity: 1;
