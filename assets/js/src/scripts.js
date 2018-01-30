@@ -304,5 +304,19 @@ $(document).ready(function(){
       ui_controls: 0
     });
   }
-
 });
+
+//intersection observer test
+
+// var elements = document.querySelector('.me-img')
+//
+// console.log(elements);
+// io.observe(
+//   elements
+// )
+//
+// var io = new IntersectionObserver(elements, log())
+//
+// function log(entries) {
+//   console.log(entries);
+// }
