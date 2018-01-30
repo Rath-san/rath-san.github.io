@@ -3,7 +3,7 @@
     <title>tests</title>
     <link href="https://rath-san.github.io/feed.xml" rel="self" />
     <link href="https://rath-san.github.io" />
-    <updated>2018-01-29T10:06:49+01:00</updated>
+    <updated>2018-01-30T07:15:56+01:00</updated>
     <author>
         <name>Raths</name>
     </author>
@@ -155,23 +155,25 @@
         <id>https://rath-san.github.io/ilustracje-landscape/</id>
             <category term="2D"/>
 
-        <updated>2018-01-23T18:47:06+01:00</updated>
+        <updated>2018-01-29T22:49:54+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://rath-san.github.io/media/posts/18/scraojarddo-Recovered.jpg" alt="" />
-                <div class="gallery" contenteditable="false" data-is-empty="false" data-columns="4">
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/scraojarddo-Recovered.jpg" data-size="4247x1906"><img src="https://rath-san.github.io/media/posts/18/gallery/scraojarddo-Recovered-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/retropetro_fireplace.png" data-size="1366x768"><img src="https://rath-san.github.io/media/posts/18/gallery/retropetro_fireplace-thumbnail.png" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/planescape.jpg" data-size="4378x1748"><img src="https://rath-san.github.io/media/posts/18/gallery/planescape-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/landscape_1.jpg" data-size="2500x1000"><img src="https://rath-san.github.io/media/posts/18/gallery/landscape_1-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/landscape.jpg" data-size="2500x1000"><img src="https://rath-san.github.io/media/posts/18/gallery/landscape-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/landing_pad.jpg" data-size="1748x2480"><img src="https://rath-san.github.io/media/posts/18/gallery/landing_pad-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/groto_arcs.jpg" data-size="1366x768"><img src="https://rath-san.github.io/media/posts/18/gallery/groto_arcs-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/caledon.jpg" data-size="2500x1000"><img src="https://rath-san.github.io/media/posts/18/gallery/caledon-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/blue_cave.jpg" data-size="1366x768"><img src="https://rath-san.github.io/media/posts/18/gallery/blue_cave-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/cmyk_mount.jpg" data-size="3200x1800"><img src="https://rath-san.github.io/media/posts/18/gallery/cmyk_mount-thumbnail.jpg" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/somepaints.jpg" data-size="1080x1920"><img src="https://rath-san.github.io/media/posts/18/gallery/somepaints-thumbnail.jpg" alt=""></a></figure>
+                    <img src="https://rath-san.github.io/media/posts/18/scraojarddo-Recovered1920.jpg" alt="" />
+                <div class="gallery" contenteditable="false" data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/somepaints1920.jpg" data-size="1920x3413"><img src="https://rath-san.github.io/media/posts/18/gallery/somepaints1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/shipplate1920.jpg" data-size="1920x936"><img src="https://rath-san.github.io/media/posts/18/gallery/shipplate1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/scraojarddo-Recovered1920.jpg" data-size="1920x862"><img src="https://rath-san.github.io/media/posts/18/gallery/scraojarddo-Recovered1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/retropetro_fireplace1920.jpg" data-size="1920x1079"><img src="https://rath-san.github.io/media/posts/18/gallery/retropetro_fireplace1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/planescape1920.jpg" data-size="1920x767"><img src="https://rath-san.github.io/media/posts/18/gallery/planescape1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/landscape1920.jpg" data-size="1920x768"><img src="https://rath-san.github.io/media/posts/18/gallery/landscape1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/landscape_1920.jpg" data-size="1920x768"><img src="https://rath-san.github.io/media/posts/18/gallery/landscape_1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/landing_pad1920.jpg" data-size="1920x2724"><img src="https://rath-san.github.io/media/posts/18/gallery/landing_pad1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/groto_arcs1920.jpg" data-size="1920x1080"><img src="https://rath-san.github.io/media/posts/18/gallery/groto_arcs1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/cmyk_mount1920.jpg" data-size="1920x1080"><img src="https://rath-san.github.io/media/posts/18/gallery/cmyk_mount1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/caledon1920.jpg" data-size="1920x768"><img src="https://rath-san.github.io/media/posts/18/gallery/caledon1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/blue_cave1920.jpg" data-size="1920x1079"><img src="https://rath-san.github.io/media/posts/18/gallery/blue_cave1920-thumbnail.jpg" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/baza1920.jpg" data-size="1920x960"><img src="https://rath-san.github.io/media/posts/18/gallery/baza1920-thumbnail.jpg" alt=""></a></figure>
 </div>
             ]]>
         </content>

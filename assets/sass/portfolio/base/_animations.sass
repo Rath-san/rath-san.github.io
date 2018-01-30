@@ -2,11 +2,32 @@
 //   @keyframes #{$name}
 //     @content
 
-// +keyframes(dropdownAnim)
++keyframes(changewidth)
   0%
-    max-height: 0%
-    padding: 0
-    max-width: 0%
+    transform: scale(1)
   100%
-    max-width: 600%
-    max-height: 600%
+    transform: scale(.5)
+
+
+
+// #logo
+  &:hover
+    #p2, #p1
+      transform-origin: center
+      animation-duration: .5s
+      animation-name: changewidth
+      animation-iteration-count: infinite
+      animation-direction: alternate
+      animation-timing-function: $material-bezier
+    #p1
+      animation-delay: .5s
+
+  // #p1
+  //   transition: transform .3s $material-bezier
+  // #p2
+  //   transition: transform .3s $material-bezier .3s
+  // &:hover
+    #p1
+      transform: scale(1.1)
+    #p2
+      transform: scale(1.1)

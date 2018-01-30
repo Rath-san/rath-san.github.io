@@ -8809,6 +8809,22 @@ h1, h2, h3, h4, h5, h6 {
   .section-header-main p {
     color: #00fcc1; }
 
+@-webkit-keyframes changewidth {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); } }
+
+@keyframes changewidth {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); } }
+
 button {
   background-color: transparent;
   border: none; }
