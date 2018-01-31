@@ -3,7 +3,7 @@
     <title>tests</title>
     <link href="https://rath-san.github.io/feed.xml" rel="self" />
     <link href="https://rath-san.github.io" />
-    <updated>2018-01-30T20:39:17+01:00</updated>
+    <updated>2018-01-31T07:00:06+01:00</updated>
     <author>
         <name>Raths</name>
     </author>
@@ -157,11 +157,11 @@
         <id>https://rath-san.github.io/ilustracje-landscape/</id>
             <category term="2D"/>
 
-        <updated>2018-01-30T20:33:04+01:00</updated>
+        <updated>2018-01-30T22:00:27+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://rath-san.github.io/media/posts/18/scraojarddo-Recovered1920.jpg" alt="" />
+                    <img src="https://rath-san.github.io/media/posts/18/scraojarddo-Recovered1920_featured.jpg" alt="" />
                 <p>Zbiór wybranych ilustracji i konceptartów.</p>
 <div class="gallery" contenteditable="false" data-is-empty="false" data-columns="3">
 <figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/18/gallery/somepaints1920.jpg" data-size="1920x3413"><img src="https://rath-san.github.io/media/posts/18/gallery/somepaints1920-thumbnail.jpg" alt=""></a></figure>
@@ -219,11 +219,11 @@
         <id>https://rath-san.github.io/post-2d-3-copy-2/</id>
             <category term="2D"/>
 
-        <updated>2018-01-30T20:35:19+01:00</updated>
+        <updated>2018-01-30T22:01:48+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://rath-san.github.io/media/posts/16/drinks.jpg" alt="" />
+                    <img src="https://rath-san.github.io/media/posts/16/drinks_1920_featured.jpg" alt="" />
                 <div class="gallery" contenteditable="false" data-is-empty="false" data-columns="4">
 <figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/16/gallery/suowa.jpg" data-size="1080x1920"><img src="https://rath-san.github.io/media/posts/16/gallery/suowa-thumbnail.jpg" alt=""></a></figure>
 <figure class="gallery__item"><a href="https://rath-san.github.io/media/posts/16/gallery/sadguy.jpg" data-size="1428x2695"><img src="https://rath-san.github.io/media/posts/16/gallery/sadguy-thumbnail.jpg" alt=""></a></figure>

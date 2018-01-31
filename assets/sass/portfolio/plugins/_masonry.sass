@@ -1,5 +1,5 @@
-.grid-sizer,
-.grid-item
+// .grid-sizer,
+// .grid-item
   width: 33.333%
   transition: all .5s $material-bezier
   opacity: 0
@@ -18,8 +18,46 @@
       height: 150px
     transition: transform .3s $material-bezier
 
+.grid-sizer
+  width: 33.333%
+  +media-max(500px)
+    width: 50%
+.grid-item
+  width: 33.333%
+  transition: all .5s $material-bezier
+  opacity: 0
+  transform: translateY(10px)
+  overflow: hidden
+  // position: relative
+  padding-top: 18%
+  +media-max(500px)
+    width: 50%
+    padding-top: 28%
+  &:nth-child(4n+1)
+    width: 66.666%
+    padding-top: 36%
+    +media-max(500px)
+      width: 100%
+      padding: 28%
+  &:hover
+    img
+      transform: scale(1.1) translate(-46%, -46%)
+
+  img
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 100%
+    height: auto
+    transform-origin: center center
+    transform: translate(-50%, -50%)
+    transition: transform .3s $material-bezier
+    +media-max(500px)
+
 .grid
-  margin: 5rem 0
+  margin: 5rem -1.5rem
+  +media-max(500px)
+    margin: 0 -1.5rem
 
 .animateIn
   opacity: 1
