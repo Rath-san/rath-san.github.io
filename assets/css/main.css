@@ -8732,7 +8732,7 @@ header.header {
   perspective: 1000px; }
   @media screen and (max-width: 768px) {
     header.header {
-      padding: 10rem 0; } }
+      padding: 5rem 0; } }
   .project-detail-page header.header {
     padding: 10rem 0; }
   header.header-post, header.header-tag {
@@ -10098,7 +10098,8 @@ textarea::-webkit-scrollbar-thumb {
   transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s; }
   @media screen and (max-width: 768px) {
     .sb-3d-wrapper {
-      width: 100%; } }
+      width: 100%;
+      margin: 0; } }
   .is--visible .sb-3d-wrapper {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
