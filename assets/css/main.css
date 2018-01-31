@@ -9541,6 +9541,11 @@ textarea::-webkit-scrollbar-thumb {
       margin-bottom: 0; }
     .me-text-header p {
       margin-bottom: 0; }
+  .me-text-body {
+    margin-bottom: 1rem; }
+  @media screen and (max-width: 520px) {
+    .me-text-footer .btn {
+      width: 100%; } }
 
 .post-miniature {
   display: block; }
