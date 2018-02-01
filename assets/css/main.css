@@ -9962,9 +9962,6 @@ textarea::-webkit-scrollbar-thumb {
 
 .grid-item {
   width: 33.333%;
-  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  -o-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   opacity: 0;
   -webkit-transform: translateY(10px);
   -ms-transform: translateY(10px);
@@ -10012,9 +10009,9 @@ textarea::-webkit-scrollbar-thumb {
 
 .animateIn {
   opacity: 1;
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0); }
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .sb-gallery {
   display: -webkit-box;
