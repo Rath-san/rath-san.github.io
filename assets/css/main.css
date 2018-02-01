@@ -9047,6 +9047,16 @@ button {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
+input:-webkit-autofill {
+  -webkit-transition: all 1s ease-in 3600s;
+  -o-transition: all 1s ease-in 3600s;
+  transition: all 1s ease-in 3600s;
+  -webkit-box-shadow: 0 0 0px 200px white inset !important;
+  box-shadow: 0 0 0px 200px white inset !important; }
+  input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 200px white inset !important;
+    box-shadow: 0 0 0px 200px white inset !important; }
+
 input[type="number"] {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
