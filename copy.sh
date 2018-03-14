@@ -1,0 +1,1 @@
+cp /C/Users/Raths/Documents/Publii/sites/tests/output/. -r /D/WORK/FRONTEND/rath-san.github.io
