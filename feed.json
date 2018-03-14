@@ -25,6 +25,21 @@
             "date_modified": "2018-01-30T20:23:42+01:00"
         },
         {
+            "id": "https://rath-san.github.io/hnapartments/",
+            "url": "https://rath-san.github.io/hnapartments/",
+            "title": "Nordic Haven Apartments",
+            "content_html": "<p>Projekt witryny, logo, skład (front-end developement).</p>\n<p><img class=\"post__image--wide\" src=\"https://rath-san.github.io/media/posts/31/nha_mockup2.jpg\" width=\"1920\" height=\"1080\"></p>\n<p class=\"align-center\"><a href=\"http://www.nordichaven.com/\">http://www.nordichaven.com/</a></p>",
+            "image": "https://rath-san.github.io/media/posts/31/nha_mockup2.jpg",
+            "author": {
+                "name": "Raths"
+            },
+            "tags": [
+                   "WEB"
+            ],
+            "date_published": "2018-01-25T19:35:33+01:00",
+            "date_modified": "2018-03-14T18:38:01+01:00"
+        },
+        {
             "id": "https://rath-san.github.io/smartfit/",
             "url": "https://rath-san.github.io/smartfit/",
             "title": "Przepis Bistro",
@@ -38,6 +53,21 @@
             ],
             "date_published": "2018-01-25T19:32:40+01:00",
             "date_modified": "2018-01-30T20:25:19+01:00"
+        },
+        {
+            "id": "https://rath-san.github.io/yama-urzywane/",
+            "url": "https://rath-san.github.io/yama-urzywane/",
+            "title": "Yama - samochody używane",
+            "content_html": "<p><img class=\"post__image--wide\" src=\"https://rath-san.github.io/media/posts/22/yama_used.jpg\" alt=\"\" width=\"1920\" height=\"1080\"></p>\n<p><a href=\"http://uzywane.yama.pl/\">http://uzywane.yama.pl/</a></p>",
+            "image": "https://rath-san.github.io/media/posts/22/yama_used.jpg",
+            "author": {
+                "name": "Raths"
+            },
+            "tags": [
+                   "WEB"
+            ],
+            "date_published": "2018-01-25T19:30:56+01:00",
+            "date_modified": "2018-03-14T18:47:06+01:00"
         },
         {
             "id": "https://rath-san.github.io/biuro-prawnicze/",
@@ -128,36 +158,6 @@
             ],
             "date_published": "2018-01-23T12:52:58+01:00",
             "date_modified": "2018-02-25T17:15:19+01:00"
-        },
-        {
-            "id": "https://rath-san.github.io/post-web-2/",
-            "url": "https://rath-san.github.io/post-web-2/",
-            "title": "Smartfit",
-            "content_html": "<p>Projekt portalu kateringowego do zamawiania spersonalizowanych diet.</p>\n<p><img class=\"post__image--wide m-b-0\" src=\"https://rath-san.github.io/media/posts/15/top.jpg\" width=\"1400\" height=\"800\"><br><img class=\"post__image--wide  m-t-0\" src=\"https://rath-san.github.io/media/posts/15/mid.jpg\" width=\"1400\" height=\"3471\"></p>",
-            "image": "https://rath-san.github.io/media/posts/15/top.jpg",
-            "author": {
-                "name": "Raths"
-            },
-            "tags": [
-                   "WEB"
-            ],
-            "date_published": "2018-01-18T11:40:54+01:00",
-            "date_modified": "2018-01-30T20:36:06+01:00"
-        },
-        {
-            "id": "https://rath-san.github.io/post-2d-3-copy/",
-            "url": "https://rath-san.github.io/post-2d-3-copy/",
-            "title": "Digital Mortar",
-            "content_html": "<p>Projekty widoków panelu administrującego systemu monitorowania ścieżek ruchu.</p>\n<p><!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In  --> <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" style=\"overflow: scroll; enable-background: new 0 0 92.4 59.1; background-color: #fc4d48; padding: 70px;\" xmlns:a=\"http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/\" x=\"0px\" y=\"0px\" width=\"100%\" height=\"300px\" viewbox=\"0 0 92.4 59.1\" xml:space=\"preserve\"> <g fill=\"white\"> <g> <path class=\"st0\" d=\"M45.8,17.4l3.2,1.8v3.7l-3.2,1.8l-3.2-1.8v-3.7L45.8,17.4 M45.8,16.2l-4.2,2.4v4.8l4.2,2.4l4.2-2.4v-4.8\n\t\t\tL45.8,16.2L45.8,16.2z\"></path> <path class=\"st0\" d=\"M35.4,17.8l2.8,1.6v3.2l-2.8,1.6l-2.8-1.6v-3.2L35.4,17.8 M35.4,16.7l-3.8,2.2v4.4l3.8,2.2l3.8-2.2v-4.4\n\t\t\tL35.4,16.7L35.4,16.7z\"></path> <path class=\"st0\" d=\"M45.8,1.2l1.6,0.9v1.8l-1.6,0.9l-1.6-0.9V2.1L45.8,1.2 M45.8,0l-2.6,1.5v3L45.8,6l2.6-1.5v-3L45.8,0L45.8,0z\"></path> <path class=\"st0\" d=\"M45.8,37.3l1.6,0.9V40l-1.6,0.9L44.2,40v-1.8L45.8,37.3 M45.8,36.1l-2.6,1.5v3l2.6,1.5l2.6-1.5v-3L45.8,36.1\n\t\t\tL45.8,36.1z\"></path> <path class=\"st0\" d=\"M56.3,18.2l2.5,1.4v2.8l-2.5,1.4l-2.5-1.4v-2.8L56.3,18.2 M56.3,17.1l-3.5,2v4l3.5,2l3.5-2v-4L56.3,17.1\n\t\t\tL56.3,17.1z\"></path> <path class=\"st0\" d=\"M61.5,10.2l1.6,0.9V12v0.9l-1.6,0.9l-1.6-0.9V12v-0.9L61.5,10.2 M61.5,9l-2.6,1.5V12v1.5l2.6,1.5l0,0l2.6-1.5\n\t\t\tV12v-1.5L61.5,9L61.5,9L61.5,9z\"></path> <path class=\"st0\" d=\"M51,9.8l1.9,1.1V12v1.1L51,14.2l-1.9-1.1V12v-1.1L51,9.8 M51,8.7l-2.9,1.7V12v1.7l2.9,1.7l0,0l2.9-1.7V12\n\t\t\tv-1.7L51,8.7L51,8.7L51,8.7z\"></path> <path class=\"st0\" d=\"M40.6,8.8l2.8,1.6V12v1.6l-2.8,1.6l-2.8-1.6V12v-1.6L40.6,8.8 M40.6,7.6l-3.8,2.2V12v2.2l3.8,2.2l0,0l3.8-2.2\n\t\t\tV12V9.8L40.6,7.6L40.6,7.6L40.6,7.6z\"></path> <path class=\"st0\" d=\"M30.2,9.2l2.5,1.4V12v1.4l-2.5,1.4l-2.5-1.4V12v-1.4L30.2,9.2 M30.2,8l-3.5,2v2v2l3.5,2l0,0l3.5-2v-2v-2\n\t\t\tL30.2,8L30.2,8L30.2,8z\"></path> <path class=\"st0\" d=\"M61.5,27.9l1.9,1.1v1.1v1.1l-1.9,1.1l-1.9-1.1v-1.1V29L61.5,27.9 M61.5,26.7l-2.9,1.7v1.7v1.7l2.9,1.7l0,0\n\t\t\tl2.9-1.7v-1.7v-1.7L61.5,26.7L61.5,26.7L61.5,26.7z\"></path> <path class=\"st0\" d=\"M51,27.2l2.5,1.4v1.4v1.4L51,32.9l-2.5-1.4v-1.4v-1.4L51,27.2 M51,26.1l-3.5,2v2v2l3.5,2l0,0l3.5-2v-2v-2\n\t\t\tL51,26.1L51,26.1L51,26.1z\"></path> <path class=\"st0\" d=\"M40.6,27.9l1.9,1.1v1.1v1.1l-1.9,1.1l-1.9-1.1v-1.1V29L40.6,27.9 M40.6,26.7l-2.9,1.7v1.7v1.7l2.9,1.7l0,0\n\t\t\tl2.9-1.7v-1.7v-1.7L40.6,26.7L40.6,26.7L40.6,26.7z\"></path> <path class=\"st0\" d=\"M30.2,28.2l1.6,0.9v0.9V31l-1.6,0.9L28.6,31v-0.9v-0.9L30.2,28.2 M30.2,27.1l-2.6,1.5v1.5v1.5l2.6,1.5l0,0\n\t\t\tl2.6-1.5v-1.5v-1.5L30.2,27.1L30.2,27.1L30.2,27.1z\"></path> <g> <g> <polygon class=\"st0\" points=\"53.7,39.4 52.7,39.4 52.7,36.8 56.1,34.9 58.2,36.2 57.7,37 56,36 53.7,37.4 \t\t\t\t\"></polygon> </g> <g> <polygon class=\"st0\" points=\"39,39.4 38,39.4 38,37.4 35.6,36 33.9,37 33.4,36.2 35.6,34.9 39,36.8 \t\t\t\t\"></polygon> </g> <g> <polygon class=\"st0\" points=\"26.7,24.1 26.2,23.3 27.7,22.4 27.7,19.7 26.2,18.8 26.7,17.9 28.7,19.1 28.7,23 \t\t\t\t\"></polygon> </g> <g> <polygon class=\"st0\" points=\"35.5,7.1 33.4,5.9 33.9,5.1 35.5,6 37.9,4.6 37.9,2.7 38.9,2.7 38.9,5.2 \t\t\t\t\"></polygon> </g> <g> <polygon class=\"st0\" points=\"56.1,7.2 52.7,5.2 52.7,2.7 53.7,2.7 53.7,4.6 56.1,6 57.7,5.1 58.2,5.9 \t\t\t\t\"></polygon> </g> <g> <polygon class=\"st0\" points=\"65,24.2 62.9,23 62.9,19.1 65,17.9 65.5,18.8 63.9,19.7 63.9,22.4 65.5,23.3 \t\t\t\t\"></polygon> </g> </g> </g> <g> <path class=\"st0\" d=\"M7.1,54.8c0,2.3-1.6,4.2-4,4.2H0v-8.4h3.2C5.5,50.6,7.1,52.4,7.1,54.8z M6.5,54.8c0-2-1.4-3.6-3.3-3.6H0.6\n\t\t\tv7.2h2.5C5.1,58.4,6.5,56.7,6.5,54.8z\"></path> <path class=\"st0\" d=\"M9.4,50.6V59H8.7v-8.4H9.4z\"></path> <path class=\"st0\" d=\"M19.4,55.4c0,2-1.5,3.7-4.1,3.7c-2.6,0-4.4-1.9-4.4-4.3s1.8-4.3,4.4-4.3c1.6,0,2.9,0.8,3.6,2l-0.6,0.3\n\t\t\tc-0.6-1.1-1.7-1.8-3-1.8c-2.2,0-3.7,1.7-3.7,3.7c0,2.1,1.5,3.7,3.8,3.7c2,0,3.3-1.3,3.4-2.8h-3.6V55h4.2V55.4z\"></path> <path class=\"st0\" d=\"M21.7,50.6V59H21v-8.4H21.7z\"></path> <path class=\"st0\" d=\"M28.9,51.2h-2.6V59h-0.6v-7.8H23v-0.6h5.9V51.2z\"></path> <path class=\"st0\" d=\"M34.5,56.8h-4.2L29.4,59h-0.7l3.3-8.4h0.7L36,59h-0.7L34.5,56.8z M34.2,56.2l-1.9-4.9l-1.9,4.9H34.2z\"></path> <path class=\"st0\" d=\"M41.8,58.4V59h-4.6v-8.4h0.6v7.8H41.8z\"></path> <path class=\"st0\" d=\"M53.9,59h-0.6v-7.5l-3.1,5.2H50l-3.1-5.2V59h-0.6v-8.4h0.8l3,5l3-5h0.8V59z\"></path> <path class=\"st0\" d=\"M55.5,54.8c0-2.4,1.9-4.3,4.3-4.3s4.3,1.9,4.3,4.3s-1.9,4.3-4.3,4.3S55.5,57.2,55.5,54.8z M63.5,54.8\n\t\t\tc0-2.1-1.6-3.7-3.7-3.7c-2.1,0-3.7,1.7-3.7,3.7c0,2.1,1.6,3.7,3.7,3.7C61.9,58.5,63.5,56.8,63.5,54.8z\"></path> <path class=\"st0\" d=\"M69.1,55.5h-2.7V59h-0.6v-8.4h3.3c1.4,0,2.5,1.1,2.5,2.5c0,1.1-0.8,2.1-1.8,2.4l2.1,3.5h-0.7L69.1,55.5z\n\t\t\t M66.4,54.9h2.7c1,0,1.8-0.8,1.8-1.9c0-1-0.8-1.9-1.8-1.9h-2.7V54.9z\"></path> <path class=\"st0\" d=\"M78.1,51.2h-2.6V59h-0.6v-7.8h-2.6v-0.6h5.9V51.2z\"></path> <path class=\"st0\" d=\"M83.7,56.8h-4.2L78.6,59H78l3.3-8.4h0.7l3.3,8.4h-0.7L83.7,56.8z M83.4,56.2l-1.9-4.9l-1.9,4.9H83.4z\"></path> <path class=\"st0\" d=\"M89.7,55.5H87V59h-0.6v-8.4h3.3c1.4,0,2.5,1.1,2.5,2.5c0,1.1-0.8,2.1-1.8,2.4l2.1,3.5h-0.7L89.7,55.5z\n\t\t\t M87,54.9h2.7c1,0,1.8-0.8,1.8-1.9c0-1-0.8-1.9-1.8-1.9H87V54.9z\"></path> </g> </g> </svg></p>\n<p><img class=\"post__image--full\" src=\"https://rath-san.github.io/media/posts/14/store_beauty.jpg\" alt=\"\" width=\"1920\" height=\"1080\"></p>\n<p><img class=\"post__image--full\" src=\"https://rath-san.github.io/media/posts/14/table_beauty.jpg\" alt=\"\" width=\"1920\" height=\"1080\"></p>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://rath-san.github.io/media/posts/14/gallery/store2.jpg\" data-size=\"1600x1150\"><img src=\"https://rath-san.github.io/media/posts/14/gallery/store2-thumbnail.jpg\" alt=\"\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://rath-san.github.io/media/posts/14/gallery/table2.jpg\" data-size=\"1600x1150\"><img src=\"https://rath-san.github.io/media/posts/14/gallery/table2-thumbnail.jpg\" alt=\"\"></a></figure>\n</div>",
-            "image": "https://rath-san.github.io/media/posts/14/store22x.jpg",
-            "author": {
-                "name": "Raths"
-            },
-            "tags": [
-                   "WEB"
-            ],
-            "date_published": "2018-01-18T11:20:08+01:00",
-            "date_modified": "2018-01-30T20:38:07+01:00"
         }
     ]
 }

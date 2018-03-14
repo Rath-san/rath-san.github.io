@@ -8825,6 +8825,34 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: scale(0.5);
     transform: scale(0.5); } }
 
+#logo #p1, #logo #p2 {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center; }
+
+#logo #p1 {
+  -webkit-transition: fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+#logo #p2 {
+  -webkit-transition: fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s;
+  transition: fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s;
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s, fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s, fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s, fill 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s; }
+
+#logo:hover #p1, #logo:hover #p2 {
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
+  fill: #4affd5; }
+
+#logo:hover #p2 {
+  fill: #96ffe6; }
+
 button {
   background-color: transparent;
   border: none; }
@@ -9110,8 +9138,10 @@ input[type="number"] {
   -webkit-transform-origin: center top;
   -ms-transform-origin: center top;
   transform-origin: center top;
-  height: 100%;
-  width: 100%;
+  height: -webkit-calc(100% + 8px);
+  height: calc(100% + 8px);
+  width: -webkit-calc(100% + 8px);
+  width: calc(100% + 8px);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
   .section-deco-header {
@@ -9333,6 +9363,7 @@ input[type="number"] {
         margin-left: 0; } }
 
 .card-text-holder {
+  width: 100%;
   max-width: 45%;
   padding: 3rem;
   z-index: 1; }
@@ -9355,6 +9386,7 @@ input[type="number"] {
     text-align: left; }
 
 .card-img-holder {
+  width: 100%;
   max-width: 55%;
   padding: 3rem; }
   @media screen and (max-width: 768px) {
@@ -9367,11 +9399,17 @@ input[type="number"] {
   height: 300px;
   -o-object-fit: cover;
   object-fit: cover;
-  -webkit-transition: -webkit-transform .2s ease;
-  transition: -webkit-transform .2s ease;
-  -o-transition: transform .2s ease;
-  transition: transform .2s ease;
-  transition: transform .2s ease, -webkit-transform .2s ease; }
+  -webkit-transition: -webkit-transform .5s ease, -webkit-box-shadow .5s ease;
+  transition: -webkit-transform .5s ease, -webkit-box-shadow .5s ease;
+  -o-transition: transform .5s ease, box-shadow .5s ease;
+  transition: transform .5s ease, box-shadow .5s ease;
+  transition: transform .5s ease, box-shadow .5s ease, -webkit-transform .5s ease, -webkit-box-shadow .5s ease; }
+  .is--active .card-img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 19px 38px rgba(21, 28, 62, 0.3), 0 15px 12px rgba(21, 28, 62, 0.22);
+    box-shadow: 0 19px 38px rgba(21, 28, 62, 0.3), 0 15px 12px rgba(21, 28, 62, 0.22); }
   @media screen and (max-width: 1024px) {
     .card-img {
       width: 150%; }
@@ -9528,9 +9566,9 @@ textarea::-webkit-scrollbar-thumb {
   -ms-transform: translate(10px, 10px);
   transform: translate(10px, 10px);
   opacity: 0;
-  -webkit-transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s;
-  -o-transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s;
-  transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s; }
+  -webkit-transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s;
+  -o-transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s;
+  transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0.4s; }
   @media screen and (max-width: 520px) {
     .me-text {
       width: 80%;
