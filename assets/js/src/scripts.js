@@ -132,7 +132,6 @@ function isSeen(item) {
       // return false
     }
   }
-  var wH = $(window).height();
 }
 //equal columns
 function equalColumns() {
@@ -153,9 +152,9 @@ $(document).ready(function(){
   if (wW < 768) {
 
     $(window).on('scroll', function(){
-      isSeen('.card')
+      isSeen('.card');
     });
-    $('section').addClass('is--visible')
+    $('section').addClass('is--visible');
 
   } else {
 
@@ -190,7 +189,7 @@ $(document).ready(function(){
     var vH = v.height()
     var vST = v.scrollTop()
 
-    var fL = vST + vH - offset
+    var fL = vST + vH - offset;
 
     // var fLIndicator =
     //     `<div style="

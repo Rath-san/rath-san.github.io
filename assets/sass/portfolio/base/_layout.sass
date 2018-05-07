@@ -5,15 +5,18 @@ section
   position: relative
   opacity: 0
   transform: translateX(100px)
-  transition: all .7s $material-bezier
+  transition: transform 0.7s $material-bezier
 
   &:nth-child(odd)
     transform: translateX(-100px)
 
   &.inner-section
     padding: 2rem 0
+
     +media-max(768px)
       padding: 5rem 0
+
+
     .project-detail-page &
       padding: 5rem 0
 
@@ -32,13 +35,18 @@ header
     position: relative
     padding: 10rem 0
     perspective: 1000px
+
     +media-max(768px)
       padding: 5rem 0
+
+
     .project-detail-page &
       padding: 10rem 0
+
     &-post,
     &-tag
       padding: 6rem 0
+
       +media-max(768px)
         padding: 4rem
 
@@ -49,6 +57,7 @@ header
 .responsive
   &-obj
     position: relative
+
     iframe
       position: absolute
       width: 100%
@@ -56,14 +65,17 @@ header
 
 .row-flex
   display: flex
+
   // align-items: center
   flex-wrap: wrap
   justify-content: space-around
+
   > *
     width: 33.333%
+
     +media-max(700px)
       width: 50%
 
 // .column-flex
-  display: flex
-  flex-direction: column
+// display: flex
+// flex-direction: column

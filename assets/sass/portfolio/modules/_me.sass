@@ -12,7 +12,6 @@
     width: 100%
   img
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%)
-  // +shadow-z-4($brand-primary)
 
 .me-text
   padding: 3rem
@@ -24,8 +23,9 @@
   position: relative
   z-index: 1
   // anims
-  transform: translate(10px, 10px)
-  opacity: 0
+  // transform: translate(10px, 10px)
+
+  opacity: 1
   transition: opacity .7s $material-bezier .4s
   +media-max(520px)
     width: 80%
@@ -33,7 +33,7 @@
     margin: -10rem auto 0 auto
 
   .is--visible &
-    transform: translate(0, 0)
+    // transform: translate(0, 0)
     opacity: 1
     +shadow-z-5($brand-primary)
 
